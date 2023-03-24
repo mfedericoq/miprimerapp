@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Button from './button'
+import Video from './video'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -83,6 +85,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Learn <span>-&gt;</span>
             </h2>
+            
             <p className={inter.className}>
               Learn about Next.js in an interactive course with&nbsp;quizzes!
             </p>
@@ -117,6 +120,8 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <Button></Button>
+        <Video></Video>
       </main>
     </>
   )
