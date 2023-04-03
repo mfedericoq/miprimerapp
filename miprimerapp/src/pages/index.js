@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Button from './button'
-import Video from './video'
+import Button from './button.js'
+import Video from './video.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
